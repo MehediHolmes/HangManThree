@@ -26,8 +26,8 @@ tasks.withType<JavaCompile> {
 }
 
 application {
-    mainModule.set("com.mehedihasanmamun.hangman3")
-    mainClass.set("com.mehedihasanmamun.hangman3.HelloApplication")
+    mainModule.set("com.mehedihasanmamun.hangmanthree")
+    mainClass.set("com.mehedihasanmamun.hangmanthree.HelloApplication")
 }
 
 javafx {

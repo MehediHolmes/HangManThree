@@ -1,4 +1,4 @@
-package com.mehedihasanmamun.hangman3;
+package com.mehedihasanmamun.hangmanthree;
 
 import javafx.application.Application;
 
