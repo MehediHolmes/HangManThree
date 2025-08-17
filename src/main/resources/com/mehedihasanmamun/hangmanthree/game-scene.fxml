@@ -30,7 +30,7 @@
       </Label>
       <TextField fx:id="tf1" layoutX="215.0" layoutY="238.0" prefHeight="34.0" prefWidth="36.0" />
       <TextField fx:id="tf2" layoutX="262.0" layoutY="238.0" prefHeight="34.0" prefWidth="36.0" />
-      <TextField fx:id="th3" layoutX="309.0" layoutY="238.0" prefHeight="34.0" prefWidth="36.0" />
+      <TextField fx:id="tf3" layoutX="309.0" layoutY="238.0" prefHeight="34.0" prefWidth="36.0" />
       <TextField fx:id="tf4" layoutX="358.0" layoutY="238.0" prefHeight="34.0" prefWidth="36.0" />
       <TextField fx:id="tf5" layoutX="403.0" layoutY="238.0" prefHeight="34.0" prefWidth="36.0" />
       <TextField fx:id="tf6" layoutX="450.0" layoutY="237.0" prefHeight="34.0" prefWidth="36.0" />
@@ -52,6 +52,7 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Label>
-      <Label fx:id="letter_count" layoutX="27.0" layoutY="176.0" />
+      <Label fx:id="hint" layoutX="5.0" layoutY="154.0" prefHeight="28.0" prefWidth="204.0" />
+      <Label fx:id="letter_count" layoutX="31.0" layoutY="198.0" />
    </children>
 </AnchorPane>
