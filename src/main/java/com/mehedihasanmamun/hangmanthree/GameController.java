@@ -16,7 +16,7 @@ public class GameController {
     @FXML
     ImageView cover_img;
     public void changeScene(ActionEvent event) throws IOException {
-        Parent parent = FXMLLoader.load(getClass().getResource("hang-man.fxml"));
+        Parent parent = FXMLLoader.load(getClass().getResource("game-scene.fxml"));
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setTitle("Hangman Game");
         window.setScene(new Scene(parent, 800, 650));
